@@ -19,12 +19,13 @@ inputs.forEach((input) => {
   });
 });
 
+console.log(inputs)
 
 /* 1.3 Añade un evento 'input' que ejecute un console.log con el valor del input. */
 
 inputs.forEach((input) => {
   input.addEventListener("input", (event) => {
-    console.log("Input:", event.target.value);
+    console.log("input:", event.target.value);
   });
 }); 
 
